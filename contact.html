@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+</head>
+
+<body>
+    <table border=0 width=1140px align="center" cellpadding=0 cellspacing=0>
+        <tr>
+            <td>
+                <img src="images/ban.jpg" alt="banner" title="banner" />
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <table border=0 cellpadding=5 cellspacing=5 width=100%>
+                    <tr>
+                        <td width=30%>
+                            <form name="Login Form" method="POST" action="" enctype="multipart/form-data">
+                                <fieldset>
+                                    <legend>Login</legend>
+                                    <input type="text" name="name" placeholder="Username" required /><br />
+                                    <input type="password" name="password" placeholder="Password" required /><br />
+                                    <input type="submit" name="submit" value="Login" />
+                                </fieldset>
+
+                            </form>
+
+
+                        </td>
+                        <td width=70%>
+                            <h2>If not Existing Member Please Register</h2>
+                            <form>
+                                <fieldset>
+                                    <legend> User Registration</legend>
+                                    <table border=0 cellpadding=10 cellspacing=10>
+                                        <tr>
+                                            <td>Username</td>
+                                            <td>
+                                                <input type="text" name="username" placeholder="Username" required />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Password</td>
+                                            <td>
+                                                <input type="password" name="password" placeholder="Password"
+                                                    required />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Email</td>
+                                            <td>
+                                                <input type="email" name="email" placeholder="you@domain.com"
+                                                    required />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gender</td>
+                                            <td>
+                                                <input type="radio" name="gender" value="M" />Male
+                                                <input type="radio" name="gender" value="F" />Female
+                                                <input type="radio" name="gender" value="O" />Others
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Courses</td>
+                                            <td>
+                                                <input type="checkbox" name="php" value="php" />PHP
+                                                <input type="checkbox" name="asp" value="asp" />ASP
+                                                <input type="checkbox" name="java" value="O" />Java
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>DOB</td>
+                                            <td>
+                                                <input type="datetime-local" name="date" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>City</td>
+                                            <td>
+                                                <select name="city" size="1">
+                                                    <option value="kath">Kathmandu</option>
+                                                    <option value="lal">Lalitpur</option>
+                                                    <option value="bkt">Bhaktapur</option>
+                                                    <option value="pkr">Pokhara</option>
+                                                    <option value="htd">Hetauda</option>
+                                                    <option value="mng">Manang</option>
+                                            </td>
+                                            </select>
+                                        </tr>
+                                        <tr>
+                                            <td>Photo</td>
+                                            <td>
+                                                <input type="file" name="upload" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Message</td>
+                                            <td>
+                                                <textarea name="message" rows="5" cols="30"></textarea>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Register</td>
+                                            <td>
+                                                <input type="submit" name="submit" value="Register" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Clear</td>
+                                            <td>
+                                                <input type="reset" name="reset" value="Clear" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </fieldset>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
